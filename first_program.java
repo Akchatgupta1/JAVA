@@ -40,18 +40,17 @@ public class first_program
             space--;
         }*/
            
-        try (/*for(int i=1;i<=10;i++){
-                    for(int j=10;j>=1;j--){
-                        System.out.print("*");
-                    }
-                    System.out.println();
-                }*/
-        Scanner sc = new Scanner(System.in); 
-            int a=sc.nextInt();
-              int b=sc.nextInt();
-              int sum=a+b;
+        /*for(int i=1;i<=10;i++){
+            for(int j=10;j>=1;j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+          Scanner sc= new Scanner(System.in);
+          int a=sc.nextInt();
+          int b=sc.nextInt();
+          int sum=a+b;
+          System.out.println(sum);
 
-              System.out.println(sum);
-        
     }
 }
