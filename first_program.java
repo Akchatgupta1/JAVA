@@ -1,3 +1,4 @@
+import java.util.*;
 public class first_program 
 {
     public static void main(String args[])
@@ -39,12 +40,18 @@ public class first_program
             space--;
         }*/
            
-        for(int i=1;i<=10;i++){
-            for(int j=10;j>=1;j--){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        try (/*for(int i=1;i<=10;i++){
+                    for(int j=10;j>=1;j--){
+                        System.out.print("*");
+                    }
+                    System.out.println();
+                }*/
+        Scanner sc = new Scanner(System.in); 
+            int a=sc.nextInt();
+              int b=sc.nextInt();
+              int sum=a+b;
 
+              System.out.println(sum);
+        
     }
 }
